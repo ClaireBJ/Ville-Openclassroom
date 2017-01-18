@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ville de Nantes</title>
+    <link rel="stylesheet" href="styleVilleNantes.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--Top Bar-->
+    <div class="contenu">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span>`Accueil</a>
+                    </li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="#">Plus d'info</a></li>
+                    <li><a href="#">Activités du mois</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <form class="navbar-form navbar-right inline-form">
+                    <div class="form-group">
+                        <input type="search" class="input-sm form-control" placeholder="Recherche">
+                        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- end of top nav -->
+    <header>
+        <!-- Caroussel-->
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active"> <img src="img/Photo1.png" alt="Fluviale">
+                            <h1 class="carousel-caption">Une ville fluviale</h1></div>
+                        <div class="item"> <img src="img/Photo2.png" alt="Machine">
+                            <h1 class="carousel-caption">Une ville innovante et moderne</h1> </div>
+                        <div class="item"> <img src="img/Photo3.png" alt="Chateau">
+                            <h1 class="carousel-caption">Une Ville historique</h1></div>
+                        <div class="item"> <img src="img/Photo4.png." alt="Folie">
+                            <h1 class="carousel-caption">Une ville touristique</h1></div>
+                        <div class="item"> <img src="img/Photo5.png." alt="Royale">
+                            <h1 class="carousel-caption">Une ville active</h1></div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#carousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </div>
+    </header>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--contenu-->
+    <div id="main">
+        <section class="col-lg-12" id="content">
+            <div class="col-lg-8  col-lg-offset-0.5">
+                <article>
+                    <h2> <strong> Bienvenue à Nantes !</strong> Venez découvrir cette ville unique chargée d'histoire !</h2>
+                    <p>Nantes est une commune de l'Ouest de la France, située au sud du massif armoricain, qui s'étend sur les rives de la Loire, à 50 km de l'océan Atlantique. Chef-lieu du département de la Loire-Atlantique et préfecture de la région Pays de la Loire, elle est l'élément central de Nantes Métropole, peuplée de 619 240 habitants en 20142, au sein de la huitième aire urbaine de France, comptant 908 815 habitants à la même date3. Associée à l'agglomération de Saint-Nazaire, avec un avant-port sur l'estuaire de la Loire, Nantes constitue aujourd'hui la métropole du Grand Ouest français. Labellisée ville d'art et d'histoire, Nantes est, en 2014, la sixième commune la plus peuplée de France avec ses 298 029 habitants, et la première de l'Ouest en nombre d'habitants4.</p>
+                </article>
+                <article>
+                    <h2>Une ville active et moderne...</h2>
+                    <p>Nantes est une ville active, culturelle, historique dôtée de nombreux clubs de sports et adoptée par de nombreuses entreprises. Le sport à Nantes est représenté par 370 associations sportives et 6 équipes professionnelles. Sur ce site vous trouverez: les activités proposées dans la ville, les actualités, les informations relatives à la ville de Nantes et bien sûr comment nous contacter.</p>
+                </article>
+            </div>
+            <!-- image de séparation-->
+            <!-- end of #content -->
+            <!-- sidebar -->
+            <aside class="col-lg-4 text-center" id="aside">
+                <h2><a href="#">Dernières actualités</a></h2> <img src="img/journal.png " alt=" " id="journal" />
+                <p>Coupe du monde de Handball à Nantes du 10 au 31 Janvier. Les matchs ont lieu les lundi, mercredi, et vendredi soir au quartier Beaujoire.</p>
+                <p>Pensez à vous inscrire et à pour réserver vos places en avance. Vous pouvez directement contacter les organisateurs via les sites suivants:</p>
+                <div id="images">
+                    <p>
+                        <a href="https://www.facebook.com/nantes.fr"><img src="img/facebook.png " alt="Facebook " /></a>
+                        <a href="https://twitter.com/nantesfr?lang=fr"><img src="img/twitter.png " alt="Twitter " /></a>
+                    </p>
+                </div>
+            </aside>
+        </section>
+        <!-- end of sidebar -->
+    </div>
+    <!--pied de page-->
+    <footer>
+        <div class=" col-lg-12 text-center" id="piedpage">
+            <div class="col-lg-4 col-lg-offset-0.5 text-center" id="Mairie de Nantes">
+                <h3><a href="http://www.nantes.fr/home/contact.html">Aller à la mairie de Nantes</a></h3>
+                <h5> Hôtel de Ville (Mairie centrale)
+                    <br /> 29, rue de Strasbourg
+                    <br /> 44000 Nantes
+                <br />Ouvert de 9h à 18h</h5> </div>
+            <div class="col-lg-4 text-center" id="jumelees">
+                <h3>Les villes jumelées</h3>
+                <ul>
+                    <li>Tokyo,</li>
+                    <li>Londres,</li>
+                    <li>Amsterdam. </li>
+                </ul>
+            </div>
+            <div id="alentours" class="col-lg-4 text-center">
+                <h3>Villes alentours</h3>
+                <ul>
+                    <li><a href="http://www.mairie-clisson.fr/ ">Clisson</a></li>
+                    <li><a href="http://www.mairie-saintnazaire.fr/site-officiel-de-la-ville-de-saint-nazaire-44600/ ">Saint Nazaire</a></li>
+                    <li><a href="http://www.labaule.fr/ ">La Baule</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
