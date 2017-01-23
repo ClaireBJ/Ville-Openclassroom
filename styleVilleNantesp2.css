@@ -9,7 +9,7 @@
     .carousel-inner {
         border: 2px solid grey;
         box-shadow: 0 3px 3px grey;
-        font-size: 2em;
+        color: #666;
     }
     
     p {
@@ -39,7 +39,7 @@
     
     #piedpage {
         margin-top: 30px;
-        background-color: #000000;
+        background-color: black;
         font: grey;
     }
     
@@ -49,7 +49,7 @@
     }
     
     a:visited {
-        color: #666;
+        color: #333333;
     }
     
     a:hover,
@@ -101,30 +101,13 @@
     /* adapter à l'écran d'ordinateur*/
     
     {
-        aside {
+        #articles {
             margin-top: 20px;
-            border-left-color: grey;
-            border-left: dashed;
-            border-left-width: medium;
+        }
+        aside {
+            margin-top: 60px;
+        }
+        #images2 {
+            margin-top: 60px;
         }
     }
-    
-    <*jQuery*> <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- Javascript de Bootstrap --> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> <script> // Scrollspy fluide
-    $(function () {
-        $('.carousel').carousel();
-        $('header a').on('click', function (e) {
-            e.preventDefault();
-            var hash=this.hash;
-            $('html, body').animate( {
-                scrollTop: $(this.hash).offset().top
-            }
-            , 1000, function () {
-                window.location.hash=hash;
-            }
-            );
-        }
-        );
-    }
-    
-    );
-    </script>
