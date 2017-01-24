@@ -9,6 +9,7 @@
     .carousel-inner {
         border: 2px solid grey;
         box-shadow: 0 3px 3px grey;
+        font-size: 2em;
     }
     
     p {
@@ -17,6 +18,18 @@
     
     article {
         margin-top: 20px;
+    }
+    
+    helbox {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    h2 {
+        text-align: center;
+        border-bottom: solid;
+        border-bottom-color: white;
+        padding-bottom: 20px;
     }
     
     #journal {
@@ -38,7 +51,7 @@
     
     #piedpage {
         margin-top: 30px;
-        background-color: black;
+        background-color: #000000;
         font: grey;
     }
     
@@ -48,7 +61,7 @@
     }
     
     a:visited {
-        color: #333333;
+        color: #666;
     }
     
     a:hover,
@@ -105,9 +118,6 @@
             border-right-color: grey;
             border-right: dashed;
             border-right-width: medium;
-        }
-        aside {
-            margin-top: 20px;
         }
     }
     

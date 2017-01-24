@@ -1,0 +1,19 @@
+/*Css*/
+
+body {
+    background: url(img/fond.png);
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: #666;
+    padding-top: 20px;
+}
+
+h2 {
+    border-bottom: solid;
+    border-bottom-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-top: 20px;
+}
