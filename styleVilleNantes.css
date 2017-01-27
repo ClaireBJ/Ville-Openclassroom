@@ -1,132 +1,176 @@
-    /*Css*/
-    
-    body {
-        background: url(img/fond.png);
-        font-family: fantasy, Arial, Helvetica, sans-serif;
-        color: #666;
+/*Css*/
+
+body {
+    background: url(img/fond.png);
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+em {
+    font-size: 0.8em;
+}
+
+.carousel-inner {
+    border: 2px solid grey;
+    box-shadow: 0 3px 3px grey;
+}
+
+p {
+    text-align: justify;
+}
+
+article {
+    margin-top: 20px;
+}
+
+#journal {
+    opacity: 0.4;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 100%;
+    margin: 20 0 0 0;
+    padding: 20 0 0 0;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#piedpage {
+    margin-top: 30px;
+    background-color: black;
+    font: grey;
+}
+
+a {
+    text-decoration: underline;
+    color: #666;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: white;
+    background: #EFECCA;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.container,
+#intitule,
+#titre {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#titre {
+    border-bottom: solid;
+    border-bottom-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.table {
+    background-color: bisque;
+}
+
+.btn-primary {
+    display: flex;
+    float: right;
+}
+
+#formulaireI {
+    padding-top: 20px;
+}
+
+
+}
+@media all and (min-width: 500px) and (max-width: 1024px)
+/*adapter à la tablette l'affichage*/
+{
+    figure {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        padding-right: 20%;
+        margin-right: 20%;
     }
     
-    .carousel-inner {
-        border: 2px solid grey;
-        box-shadow: 0 3px 3px grey;
+    aside {
+        margin-top: 20px;
+        border-top-color: grey;
+        border-top: dashed;
+        border-top-width: medium;
+    }
+}
+@media all and (max-width: 500px)
+/*adapter aux écrans de téléphone*/
+{
+    aside {
+        margin-top: 20px;
+        border-top-color: grey;
+        border-top: dashed;
+        border-top-width: medium;
     }
     
-    p {
-        text-align: justify;
+    #photoActu,
+    #intro,
+    #intitule {
+        display: none;
     }
     
-    article {
+    #content {
+        padding-top: 10%;
+        margin-top: 10%;
+    }
+    
+    .articles h2 {
+        font-size: 1.5em;
+    }
+    
+    #tableau {
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    
+    td {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (min-width: 1024px)
+/* adapter à l'écran d'ordinateur*/
+{
+    #articles {
+        margin-top: 20px;
+        border-right-color: grey;
+        border-right: dashed;
+        border-right-width: medium;
+    }
+    
+    aside {
         margin-top: 20px;
     }
     
-    #journal {
-        opacity: 0.4;
+    #aside1 {
+        margin-top: 10%;
     }
     
-    #images {
-        display: flex;
-        justify-content: center;
+    .articles {
+        margin-top: 20px;
     }
-    
-    #main {
-        width: 100%;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-        overflow: hidden;
-        text-align: justify;
-    }
-    
-    #piedpage {
-        margin-top: 30px;
-        background-color: black;
-        font: grey;
-    }
-    
-    a {
-        text-decoration: underline;
-        color: #666;
-    }
-    
-    a:visited {
-        color: #333333;
-    }
-    
-    a:hover,
-    a:focus,
-    a:active {
-        text-decoration: none;
-        color: white;
-        background: #EFECCA;
-    }
-    
-    ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    
-    @media all and (min-width: 500px) and (max-width: 1024px)
-    /*adapter à la tablette l'affichage*/
-    
-    {
-        aside {
-            margin-top: 20px;
-            border-top-color: grey;
-            border-top: dashed;
-            border-top-width: medium;
-        }
-    }
-    
-    @media all and (max-width: 500px)
-    /*adapter aux écrans de téléphone*/
-    
-    {
-        nav ul {
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-        }
-        aside {
-            margin-top: 20px;
-            border-top-color: grey;
-            border-top: dashed;
-            border-top-width: medium;
-        }
-        .container {
-            display: none;
-        }
-    }
-    
-    @media all and (min-width: 1024px)
-    /* adapter à l'écran d'ordinateur*/
-    
-    {
-        #articles {
-            margin-top: 20px;
-            border-right-color: grey;
-            border-right: dashed;
-            border-right-width: medium;
-        }
-        aside {
-            margin-top: 20px;
-        }
-    }
-    
-    <*jQuery*> <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- Javascript de Bootstrap --> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> <script> // Scrollspy fluide
-    $(function () {
-        $('.carousel').carousel();
-        $('header a').on('click', function (e) {
-            e.preventDefault();
-            var hash=this.hash;
-            $('html, body').animate( {
-                scrollTop: $(this.hash).offset().top
-            }
-            , 1000, function () {
-                window.location.hash=hash;
-            }
-            );
-        }
-        );
-    }
-    
-    );
-    </script>
+}

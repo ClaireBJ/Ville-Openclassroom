@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ville de Nantes</title>
-    <link rel="stylesheet" href="styleVilleNantesp3.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styleVilleNantes.css" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="print.css" media="print" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
@@ -16,160 +16,165 @@
 <body>
     <!--Top Bar-->
     <div class="contenu">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="IndexVilleNantes.html"> Menu</a> </div>
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="IndexVilleNantes.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span>`Accueil</a>
+                    <li class="active">
+                        <a href="IndexVilleNantes.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a>
                     </li>
                     <li> <a href="IndexVilleNantesp2.html">Actualités</a></li>
                     <li><a href="IndexVilleNantesp3.html">Plus d'info</a></li>
                     <li><a href="IndexVilleNantesp4.html">Activités du mois</a></li>
                     <li><a href="IndexVilleNantesp5.html">Contact</a></li>
                 </ul>
-                <form class="navbar-form navbar-right inline-form ">
+                <form class="navbar-form navbar-right inline-form">
                     <div class="form-group">
                         <input type="search" class="input-sm form-control" placeholder="Recherche">
                         <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                     </div>
                 </form>
             </div>
-        </nav>
-    </div>
-    <!-- end of top nav -->
-    <header>
-        <!-- Caroussel-->
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-                <div id="carousel" class="carousel slide " data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                        <li data-target="#carousel" data-slide-to="3"></li>
-                        <li data-target="#carousel" data-slide-to="5"></li>
-                        <li data-target="#carousel" data-slide-to="6"></li>
-                        <li data-target="#carousel" data-slide-to="7"></li>
-                        <li data-target="#carousel" data-slide-to="8"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active"> <img src="img/hand.png" alt="hand">
-                            <h1 class="carousel-caption">Championnat du Monde de Handball à Nantes jusqu'au 31 janvier</h1></div>
-                        <div class="item"> <img src="img/nocturne.png" alt="Nocturne">
-                            <h1 class="carousel-caption">Nocturne ce soir au château des ducs de bretagne</h1> </div>
-                        <div class="item"> <img src="img/recensement.png" alt="Recensement">
-                            <h1 class="carousel-caption">Recensement annuel de la population du 19/01 au 25/02</h1></div>
-                        <div class="item"> <img src="img/Aviron.png." alt="Aviron">
-                            <h1 class="carousel-caption">Portes ouvertes du club Nantais d'Aviron le 5/02</h1></div>
-                        <div class="item"> <img src="img/marathon.png" alt="marathon">
-                            <h1 class="carousel-caption">Venez courrir tous les ans au marathon de Nantes</h1></div>
-                        <div class="item"> <img src="img/benevolat.png" alt="benevolat">
-                            <h1 class="carousel-caption">Engagez-vous dans l'une des 200 associations Nantaises</h1> </div>
-                        <div class="item"> <img src="img/sport.png" alt="Sport">
-                            <h1 class="carousel-caption">Toute l'année sortez faire du sport en plein air</h1></div>
-                        <div class="item"> <img src="img/canal.png" alt="canal">
-                            <h1 class="carousel-caption">Le canal de Nantes à Brest vous attend</h1></div>
-                        <div class="item"> <img src="img/peche.png." alt="peche">
-                            <h1 class="carousel-caption">réouverture de la pêche en avril et compétition tous les ans sur l'erdre en juin</h1></div>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-                <a class="right carousel-control" href="#carousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-            </div>
         </div>
-    </header>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!--contenu-->
-    <div id="main">
-        <section class="col-lg-12" id="content">
-            <div class="col-lg-8 col-lg-offset-0.5" id="articles">
-                <article>
-                    <h3> <u> Venez encourager l'équipe de France de Handball à l'occasion de la coupe du monde 2017!</u></h3>
-                    <p> Les matchs ont lieu au quartier de la beaujoire tous les soirs à 20h. N'oubliez pas de réserver pour avoir une place assurée. En ce temps de compétition, nous vous conseillons d'emprunter aux alentours du quartier de la beaujoire les transports en commun pour éviter les embouteillages! Venez nombreux pour soutenir la France! </p>
-                </article>
-                <article>
-                    <h3> <u> Vous aimez la danse? Rendez-vous ce soir au château des ducs de Bretagne pour assister à la nocturne!</u></h3>
-                    <p> Régulièrement la ville propose des nocturnes pour vous faire profiter de Nantes en soirée.Ce soir ce sera au chateau! Le mois de février vous ouvrira les portes de la tour LU à l'occasion des nocturnes nantaises. Notez déjà le 20 février dans vos agendas. </p>
-                </article>
-                <article>
-                    <h3> <u> Début 2017 pensez à vous faire recenser!</u></h3>
-                    <p> Pour les 16 ans et + le recensement est obligatoire. Pensez à venir vous faire recenser avant le 28 février à votre mairie! </p>
-                </article>
-                <article>
-                    <h3> <u> Un peu de sport? Le club d'Aviron vous ouvre ses portes!</u></h3>
-                    <p> L'équipe d'aviron française est l'une des meilleures en France. Nous vous proposons de venir rencontrer nos athlètes et par la même occasion de découvrir leur univers le 5/02. Rendez-vous sur les bords de l'erdre dès 14h pour la journée portes ouvertes. </p>
-                </article>
-                <article>
-                    <h3> <u> Un peu de sport? Inscrivez vous dès mars au marathon de Nantes!</u></h3>
-                    <p> Tous les ans le marathon de Nantes affiche complet, pour bénéficier de réductions et pour vous assurer d'avoir une place, inscrivez vous avant l'été. </p>
-                </article>
-                <article>
-                    <h3> <u> Nantes compte plus de 200 associations. Toutes ont besoin de bras alors rejoignez les.</u></h3>
-                    <p> Un forum association aura lieu le 20 janvier. Pour plus d'information sur le forum et les missions rendez-vous sur leur <a href="http://nantes.francebenevolat.org/"> site internet.</a> </p>
-                </article>
-                <article>
-                    <h3> <u> Amoureux de la nature et d'histoire? Le canal de Nantes à Brest est fait pour vous.</u></h3>
-                    <p> voici l'une des attractions qui ne ferme jamais. Partez pour 1 semaine ou 2 à vélo pour voyager au coeur de l'histoire Nantaise. Vous y verrez de superbes points de vue, des folies de Nantes et certains chateaux renommés de l'histoire. </p>
-                </article>
-                <article>
-                    <h3> <u> Le beau temps revient, partez à Pornic pour la journée.</u></h3>
-                    <p> Attention, aux embouteillages du dimanche soir pour revenir. Néanmoins, à part ce détail rien de mieux qu'un bain de soleil face à la mer! </p>
-                </article>
-                <article>
-                    <h3> <u> Réouverture de la pèche en Avril.</u></h3>
-                    <p> Les pêcheurs qui avaient disparus cet hiver, reviendront sur les bords de l'erdre et ailleurs dès avril. Avis aux amateurs. </p>
-                </article>
-            </div>
-            <!-- image de séparation-->
-            <!-- end of #content -->
-            <!-- sidebar -->
-            <aside class="col-lg-4 text-center" id="aside">
-                <h3>6 évènements à noter dans vos agendas:</h3> <img src="img/agenda.png" alt=" " id="agenda" />
-                <ol>
-                    <li>Coupe du monde de Handball à Nantes du 10 au 31 Janvier</li>
-                    <li>Nocturne le 18 janvier au château</li>
-                    <li>Forum des associations le 20 janvier</li>
-                    <li>Portes ouvertes du club d'Aviron le 5 février</li>
-                    <li>Nocturne le 20 février à la tour LU</li>
-                    <li>Recensement de la population avant le 29 février</li>
-                </ol> Pour en savoir plus, vous avez toujours les liens Facebook et Twitter:
-                <div id="images">
-                    <p>
-                        <a href="https://www.facebook.com/nantes.fr"><img src="img/facebook.png " alt="Facebook" /></a>
-                        <a href="https://twitter.com/nantesfr?lang=fr"><img src="img/twitter.png " alt="Twitter" /></a>
-                    </p>
+        <!-- end of top nav -->
+        <header>
+            <!-- Caroussel-->
+            <div class="container" id="intro">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1><em><strong> Les infos en un clin d'oeil</strong></em></h1>
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                            <li data-target="#carousel" data-slide-to="5"></li>
+                            <li data-target="#carousel" data-slide-to="6"></li>
+                            <li data-target="#carousel" data-slide-to="7"></li>
+                            <li data-target="#carousel" data-slide-to="8"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active"> <img src="img/hand.jpg" alt="hand">
+                                <h2 class="carousel-caption">Championnat du Monde de Handball à Nantes jusqu'au 31 janvier</h2></div>
+                            <div class="item"> <img src="img/nocturne.jpg" alt="Nocturne">
+                                <h2 class="carousel-caption">Nocturne ce soir au château des ducs de bretagne</h2> </div>
+                            <div class="item"> <img src="img/recensement.png" alt="Recensement">
+                                <h2 class="carousel-caption">Recensement annuel de la population du 19/01 au 25/02</h2></div>
+                            <div class="item"> <img src="img/Aviron.jpg" alt="Aviron">
+                                <h2 class="carousel-caption">Portes ouvertes du club Nantais d'Aviron le 5/02</h2></div>
+                            <div class="item"> <img src="img/marathon.jpg" alt="marathon">
+                                <h2 class="carousel-caption">Venez courrir tous les ans au marathon de Nantes</h2></div>
+                            <div class="item"> <img src="img/benevolat.jpg" alt="benevolat">
+                                <h2 class="carousel-caption">Engagez-vous dans l'une des 200 associations Nantaises</h2> </div>
+                            <div class="item"> <img src="img/sport.jpg" alt="Sport">
+                                <h2 class="carousel-caption">Toute l'année sortez faire du sport en plein air</h2></div>
+                            <div class="item"> <img src="img/canal.jpg" alt="canal">
+                                <h2 class="carousel-caption">Le canal de Nantes à Brest vous attend</h2></div>
+                            <div class="item"> <img src="img/peche.jpg" alt="peche">
+                                <h2 class="carousel-caption">réouverture de la pêche en avril et compétition tous les ans sur l'erdre en juin</h2></div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
                 </div>
-                <div id="images2"><img src="img/voyage.png" alt="voyage"> </div>
-            </aside>
-        </section>
-        <!-- end of sidebar -->
-    </div>
-    <!--pied de page-->
-    <footer>
-        <div class=" col-lg-12 text-center" id="piedpage">
-            <div class="col-lg-4 col-lg-offset-0.5 text-center" id="MairieNantes">
-                <h3><a href="http://www.nantes.fr/home/contact.html">Aller à la mairie de Nantes</a></h3>
-                <h5> Hôtel de Ville (Mairie centrale)
+            </div>
+        </header>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!--contenu-->
+        <div id="main">
+            <section class="col-lg-12" id="content">
+                <div class="col-lg-8 col-lg-offset-0.5" id="articles">
+                    <article>
+                        <h3> <u> Venez encourager l'équipe de France de Handball à l'occasion de la coupe du monde 2017!</u></h3>
+                        <p> Les matchs ont lieu au quartier de la beaujoire tous les soirs à 20h. N'oubliez pas de réserver pour avoir une place assurée. En ce temps de compétition, nous vous conseillons d'emprunter aux alentours du quartier de la beaujoire les transports en commun pour éviter les embouteillages! Venez nombreux pour soutenir la France! </p>
+                    </article>
+                    <article>
+                        <h3> <u> Vous aimez la danse? Rendez-vous ce soir au château des ducs de Bretagne pour assister à la nocturne!</u></h3>
+                        <p> Régulièrement la ville propose des nocturnes pour vous faire profiter de Nantes en soirée.Ce soir ce sera au chateau! Le mois de février vous ouvrira les portes de la tour LU à l'occasion des nocturnes nantaises. Notez déjà le 20 février dans vos agendas. </p>
+                    </article>
+                    <article>
+                        <h3> <u> Début 2017 pensez à vous faire recenser!</u></h3>
+                        <p> Pour les 16 ans et + le recensement est obligatoire. Pensez à venir vous faire recenser avant le 28 février à votre mairie! </p>
+                    </article>
+                    <article>
+                        <h3> <u> Un peu de sport? Le club d'Aviron vous ouvre ses portes!</u></h3>
+                        <p> L'équipe d'aviron française est l'une des meilleures en France. Nous vous proposons de venir rencontrer nos athlètes et par la même occasion de découvrir leur univers le 5/02. Rendez-vous sur les bords de l'erdre dès 14h pour la journée portes ouvertes. </p>
+                    </article>
+                    <article>
+                        <h3> <u> Un peu de sport? Inscrivez vous dès mars au marathon de Nantes!</u></h3>
+                        <p> Tous les ans le marathon de Nantes affiche complet, pour bénéficier de réductions et pour vous assurer d'avoir une place, inscrivez vous avant l'été. </p>
+                    </article>
+                    <article>
+                        <h3> <u> Nantes compte plus de 200 associations. Toutes ont besoin de bras alors rejoignez les.</u></h3>
+                        <p> Un forum association aura lieu le 20 janvier. Pour plus d'information sur le forum et les missions rendez-vous sur leur <a href="http://nantes.francebenevolat.org/"> site internet.</a> </p>
+                    </article>
+                    <article>
+                        <h3> <u> Amoureux de la nature et d'histoire? Le canal de Nantes à Brest est fait pour vous.</u></h3>
+                        <p> voici l'une des attractions qui ne ferme jamais. Partez pour 1 semaine ou 2 à vélo pour voyager au coeur de l'histoire Nantaise. Vous y verrez de superbes points de vue, des folies de Nantes et certains chateaux renommés de l'histoire. </p>
+                    </article>
+                    <article>
+                        <h3> <u> Le beau temps revient, partez à Pornic pour la journée.</u></h3>
+                        <p> Attention, aux embouteillages du dimanche soir pour revenir. Néanmoins, à part ce détail rien de mieux qu'un bain de soleil face à la mer! </p>
+                    </article>
+                    <article>
+                        <h3> <u> Réouverture de la pèche en Avril.</u></h3>
+                        <p> Les pêcheurs qui avaient disparus cet hiver, reviendront sur les bords de l'erdre et ailleurs dès avril. Avis aux amateurs. </p>
+                    </article>
+                </div>
+                <!-- image de séparation-->
+                <!-- end of #content -->
+                <!-- sidebar -->
+                <aside class="col-lg-4 text-center" id="aside1">
+                    <h3>6 évènements à noter dans vos agendas:</h3> <img src="img/agenda.png" alt=" " id="agenda" />
+                    <ol>
+                        <li>Coupe du monde de Handball à Nantes du 10 au 31 Janvier</li>
+                        <li>Nocturne le 18 janvier au château</li>
+                        <li>Forum des associations le 20 janvier</li>
+                        <li>Portes ouvertes du club d'Aviron le 5 février</li>
+                        <li>Nocturne le 20 février à la tour LU</li>
+                        <li>Recensement de la population avant le 29 février</li>
+                    </ol> Pour en savoir plus, vous avez toujours les liens Facebook et Twitter:
+                    <div id="images">
+                        <p>
+                            <a href="https://www.facebook.com/nantes.fr"><img src="img/facebook.png" alt="Facebook" /></a>
+                            <a href="https://twitter.com/nantesfr?lang=fr"><img src="img/twitter.png" alt="Twitter" /></a>
+                        </p>
+                    </div>
+                    <div id="images2"><img src="img/voyage.png" alt="voyage"> </div>
+                </aside>
+            </section>
+            <!-- end of sidebar -->
+        </div>
+        <!--pied de page-->
+        <footer>
+            <div class=" col-lg-12 text-center" id="piedpage">
+                <div class="col-lg-4 col-lg-offset-0.5 text-center" id="MairieNantes">
+                    <h3><a href="http://www.nantes.fr/home/contact.html">Aller à la mairie de Nantes</a></h3>
+                    <h5> Hôtel de Ville (Mairie centrale)
                     <br /> 29, rue de Strasbourg
                     <br /> 44000 Nantes
                 <br />Ouvert de 9h à 18h</h5> </div>
-            <div class="col-lg-4 text-center" id="jumelees">
-                <h3>Les villes jumelées</h3>
-                <ul>
-                    <li>Tokyo,</li>
-                    <li>Londres,</li>
-                    <li>Amsterdam. </li>
-                </ul>
+                <div class="col-lg-4 text-center" id="jumelees">
+                    <h3>Les villes jumelées</h3>
+                    <ul>
+                        <li>Tokyo,</li>
+                        <li>Londres,</li>
+                        <li>Amsterdam. </li>
+                    </ul>
+                </div>
+                <div id="alentours" class="col-lg-4 text-center">
+                    <h3>Villes alentours</h3>
+                    <ul>
+                        <li><a href="http://www.mairie-clisson.fr/">Clisson</a></li>
+                        <li><a href="http://www.mairie-saintnazaire.fr/site-officiel-de-la-ville-de-saint-nazaire-44600/">Saint Nazaire</a></li>
+                        <li><a href="http://www.labaule.fr/">La Baule</a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="alentours" class="col-lg-4 text-center">
-                <h3>Villes alentours</h3>
-                <ul>
-                    <li><a href="http://www.mairie-clisson.fr/">Clisson</a></li>
-                    <li><a href="http://www.mairie-saintnazaire.fr/site-officiel-de-la-ville-de-saint-nazaire-44600/">Saint Nazaire</a></li>
-                    <li><a href="http://www.labaule.fr/">La Baule</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
+
+</html>
